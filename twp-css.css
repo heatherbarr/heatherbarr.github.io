@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+		body{
+			background: #FC93BD ;
+			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+			border:double #FA9EFF 4px}
+
+		.wrapper{
+			background-image: url("images/clouds.jpg"); 
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			background-size: cover;
+				width: 972px;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 0 18px 18px; }
+
+
+		.gallery-grid {
+		  display: grid;
+		  padding-left: 30px;
+		  width: 600px;
+		  gap: 10px;
+		  grid-template-columns: repeat(3, 1fr);}
+
+		.site-header {
+			} /* selects the site header inside the wrapper */
+
+		.page-header {
+			} /* selects the page header inside the main element */
+
+		.container {
+			text-align: center;
+		}
+		.table {
+			text-align:center;
+		}
+		.rotate-image {
+					transform: rotate(180deg);
+				}
+		
+	
+		img { text-align: center;
+			/* Additional styles for your image */
+		}
+
+		h1 {
+			/* Additional styles for your heading */
+			display: inline-block; /* Optional: This helps center block-level headings */
+		}
+		h1 {
+			color:#AE34FF ; 
+			font-size: 40px;
+			background-color:#BDFFE9;
+			border:double 25px ;
+			padding: 20px;
+			position: }
+	/* If there is an h1 on the page, then change its color to blue and change its sixe to 240 pxls*/
+		h2 {
+			color:#00CAC7;}
+		
+		p {
+			font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+			background-color:#FFFFFF;
+			background-color:#BDFFE9;
+			border:solid 4px #DB66FF;
+			padding: 20px;}
+		table {
+			color: darkmagenta;
+			border: solid #AE34FF;
+			background-color: azure;}
+		
+		img {
+			border: #000000 ridge;}
+		
+		em {
+			color: #E000AE;
+			font-style: normal;}
+		
+		a {
+			background-color: #FCC0FE;}
+
+		.site-nav {border: 3px solid #F82BFF ;
+			border-radius: 1rem;}
+
+		.page-nav {
+			border: 3px solid #F82BFF ;
+			border-radius: 1rem;}
+
+		nav {
+			background-color: #FCC0FE;	
+			border-radius: 1rem;
+   	 		padding: 8px;
+   			text-align: center;}
+		
