@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+
+		body{
+			background: #FFFFFF;
+			font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			font-size: 22px;
+			line-height: 150%;
+			color: #141414;
+		
+	}
+
+
+	.worldmap {
+		width: 900px;
+		height: 600px;
+		border: solid #5a5a5a 1px;
+		background: url("../imgs/nycmap.jpg") no-repeat;
+		background-size: 900px 600px;
+		padding: 0;
+		margin: 0; /* adjust as needed */
+		position: relative; /* needed for positioning the icons */
+	}
+
+.worldmap-item {
+	height: 24px;
+	position: absolute;
+	}
+
+#worldmap-item-SweetMoments {
+	top: 535px;
+	left: 374px;
+	
+	}
+	
+#worldmap-item-Ktown {
+	top: 200px;
+	left: 440px;
+	}
+#worldmap-item-websterhall {
+	top: 200px;
+	left: 440px;
+	}
+
+.icon-blue {
+	color: #CE02E2;
+}
+.map{
+	width: 900px;
+	height: 600px;
+	border: solid #bababa 1px;
+	}
+
+.profile-container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 2rem 6rem;
+	align-items: center;
+	padding: 32px;
+}
+.profile-container3 {
+		display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto;
+	gap: 2rem 2rem 2rem;
+	grid-template-areas: 
+		"shineep shineeb shineep"
+		"heathb heathp heathb"
+		"minnib minnip minnib";
+	}
+
+.heath-port{
+	grid-area: heathp;
+}
+.heath-bio{
+	grid: heathb;
+}
+.shinee-port{
+	grid-area: shineep;
+}
+.shinee-bio{
+	grid-area: shineeb;
+}
+.minnie-port{
+	grid-area: minnip;
+}
+.minnie-bio{
+	grid-area: minnib;
+}
+
+
+
+.profile-port {
+	padding: 10px;
+	
+}
+.profile-bio {}
+.profile-container img {
+	border-radius: 50%;
+	max-width: 100%;
+	height:auto;
+}
+.lead{}
+.lead-display
+	{
+		background-image: url("../imgs/svtodetour.jpg");
+		background-repeat: no-repeat;
+		width: 900px;
+		height: 506px;
+		position: relative;
+	}
+.primary-statement{
+	font-size: 25px;
+	color: #E000A9;
+	position: absolute;
+}
+		.wrapper{
+			background-image: url("../../trashwp/images/clouds.jpg"); 
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			background-size: cover;
+				width: 900px;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 0 18px 18px; }
+
+		.site-logo-image {
+			height: 75px;
+			border: 0px;
+			background-color: none;
+			
+					}
+.showcase-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.showcase-item {
+    flex: 0 1 calc(33.33% - 10px); /* Set flex-basis to 33.33% (minus padding) */
+    padding: 5px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    text-align: center; /* Center align text */
+    background-color: #FFB2FD; /* Add a background color */
+}
+
+.showcase-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.showcase-item p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 10px; /* Adjust the gap between images */
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+ 
+      .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+ .lightstickr-box {
+	justify-content: center;
+    align-items: center;
+    width: 860px; 
+    padding: 15px; 
+    background-color: #ACFFEE; 
+	 border-radius: 1rem;
+  }
+
+  .lightstickgrid {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr; /* First column for the first image, rest for the other images */
+    grid-gap: 15px;
+    align-items: start; /* Align items to the top */
+	
+  }
+  
+  .lightstickgrid img {
+   
+    height: auto;
+    display: block;
+  }
+
+
+  /* Spanning the first image */
+  .row-1 {
+	  width: 80%;
+    grid-column: 1; /* Spanning only one column */
+    grid-row: span 2; /* Spanning two rows */
+	
+  }
+
+.micoreview{
+        display: grid;
+        grid-template-columns: 3fr 1fr; /* 2 parts for the left column, 1 part for the right */
+        grid-gap: 20px; /* gap between columns */
+    }
+
+    .left-column {
+        grid-column: 1 / 2; /* spans the first column */
+		grid-gap: 60px;
+    }
+
+    .right-column {
+        grid-column: 2 / 5; /* spans the second column */
+		width: 100%;
+		 
+    }
+
+.backtotop p {   
+	border-radius: 5px;
+    padding: 20px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+	text-align: center;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+
+			.gallery-grid {
+			display: grid;
+			grid-template-columns: auto auto auto;
+			grid-row-gap: 20px ;
+			border: solid pink 2px;
+			justify-items: center;
+			align-items: start;
+			justify-content: space-between;
+			padding: 18;
+			}
+
+			.gallery-item {
+			width: 300px;
+			text-align: center;
+			}
+
+			.gallery-item img {
+			width: 260px;
+				text-align: center;
+			}
+			.gallery-item p {
+			margin: .30em 0;
+			line-height: 135%;
+				width: 300px;
+				align-items: center;
+			}
+
+.paragraph {font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+
+		.site-header {
+			} /* selects the site header inside the wrapper */
+
+		.page-header {
+			} /* selects the page header inside the main element */
+
+		.container {
+			text-align: center;
+		}
+		.table {
+			text-align:center;
+		}
+		.rotate-image {
+					transform: rotate(180deg);
+				}
+		
+	.container {
+      display: flex;
+      flex-direction: column;
+    }
+.container2 {
+	display: grid;
+    place-items: center;
+	align-items: center;
+   /* Adjust this if needed to center vertically as well */
+}
+.container3 { 
+	align-items: center;
+	margin-inline-start: 300px;
+    margin-inline-end: 300px;}
+
+.container4 { 
+	align-items: center;
+	margin-inline-start: 200px;
+    margin-inline-end: 400px;}
+    .column {
+      margin-right: 20px; /* Adjust the margin between columns as needed */
+    }
+
+		img { 
+			/* Additional styles for your image */
+		}
+
+		h1 {
+			/* Additional styles for your heading */
+			 /* Optional: This helps center block-level headings */
+		}
+		h1 {
+			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+			color:#AE34FF ; 
+			
+		 }
+	/* If there is an h1 on the page, then change its color to blue and change its sixe to 240 pxls*/
+		h2 { font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+		
+		p {
+			font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			font-size: 18px;
+
+}
+		table {
+			color: darkmagenta;
+			border: solid #AE34FF;
+			background-color: azure;
+			width: 75%}
+		table th {
+			background-color: #DB66FF;
+			color: #fff;
+			padding: 8px;
+			text-align: left;
+				}
+		
+		img {
+			border: #000000 ridge 3px; }
+		
+		em {
+			color: #E000AE;
+			font-style:oblique;
+			font-weight: 300;
+font-size: 35px;}
+		
+		a { color: deeppink;
+			}
+		.site-nav a{text-decoration: none;
+					color: mediumslateblue;
+			font-size: 20px;}
+
+		.site-nav {
+			
+			font-size: 16px;
+			
+		text-decoration: none;}
+		.site-nav a:hover {color: deeppink;
+	background: #FFC7EE;}
+
+.page-nav a:hover {color: deeppink;
+	background: #FFC7EE;}
+		.page-nav a{text-decoration: none;
+					color: darkmagenta;}
+		.page-nav {
+			border: 3px solid #F82BFF ;
+			border-radius: 1rem;
+			text-decoration: none;}
+
+		nav {
+			background-color: #FCC0FE;	
+			border-radius: 1rem;
+   	 		padding: 8px;
+   			text-align: center;}
